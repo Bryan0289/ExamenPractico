@@ -15,7 +15,7 @@ import java.sql.DriverManager;
 public class Conexion {
     Connection con;
     public Connection getConnection(){
-        String url="jdbc:mysql://localhost:3303/practica";
+        String url="jdbc:mysql://localhost:3303/proyecto";
         String user="root";
         String pass="";
         try {
